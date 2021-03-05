@@ -26,7 +26,8 @@ defmodule DistributedTasks.MixProject do
       {:uuid, "~> 1.1"},
       {:singleton_supervisor, "~> 0.2.1"},
       {:singleton, "~> 1.3.0"},
-      {:horde, "~> 0.7"}
+      {:horde, "~> 0.7"},
+      {:ex_doc, ">= 0.0.0", only: :dev, runtime: false}
       # {:dep_from_hexpm, "~> 0.3.0"},
       # {:dep_from_git, git: "https://github.com/elixir-lang/my_dep.git", tag: "0.1.0"}
     ]
