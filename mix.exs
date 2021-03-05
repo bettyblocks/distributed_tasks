@@ -36,7 +36,7 @@ defmodule DistributedTasks.MixProject do
     [
       maintainers: ["Roman Berdichevskii"],
       licenses: ["MIT"],
-      links: %{"GitHub" => ""}
+      links: %{"GitHub" => "https://github.com/bettyblocks/distributed_tasks"}
     ]
   end
 
